@@ -1,0 +1,82 @@
+.navbar-nav .nav-item .nav-link.active {
+    text-decoration: underline;
+  }
+  .carousel-item img {
+    height: 400px; /* Adjust the height as needed */
+    width: 400px;
+    object-fit: cover; /* Ensure images cover the entire carousel */
+  }
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+.container {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.ticket-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.ticket-info img {
+    max-width: 50%;
+    margin-right: 20px;
+}
+.ticket-info p {
+    margin: 0;
+}
+#ticket-count {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+#buy-btn {
+    font-size: 18px;
+}
+
+
+
+
+
+/*footer*/
+footer {
+    background-color: #080808; /* Dark gray */
+    color: #170101; /* White text */
+    padding: 50px 0;
+}
+.footer-links {
+    list-style: none;
+    padding: 0;
+}
+.footer-links li {
+    margin-bottom: 10px;
+}
+.footer-links a {
+    color: #080808;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+.footer-links a:hover {
+    color: #007bff; /* Blue on hover */
+}
+.social-icons {
+    list-style: none;
+    padding: 0;
+}
+.social-icons li {
+    display: inline-block;
+    margin-right: 20px;
+}
+.social-icons a {
+    color: #0b0707;
+    text-decoration: none;
+    font-size: 36px;
+    transition: color 0.3s ease;
+}
+.social-icons a:hover {
+    color: #007bff; /* Blue on hover */
+}
